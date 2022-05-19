@@ -39,7 +39,7 @@ if __name__ == "__main__":
     print(git_encrypted_message)
 
     shift = input(f"Please, {name}, give decryption shift key (integer number please): ")
-    if type(shift_back) != int:
+    if type(shift) != int:
         raise Exception("input value not supported!")
     decrypted_message = decrypt_message(shift=shift, message=git_encrypted_message)
     print(f"Nice try {name}, this is your decrypted message:")
