@@ -31,6 +31,8 @@ if __name__ == "__main__":
     the 'input' python function makes it possible to interact with the user. Try using it to ask for someone's 
     name. 
     """
+    print('Enter your name:')
+    name = input()
     message_1 = f"Git says: hi {name}, can you decrypt my message?"
 
     print(message_1)
