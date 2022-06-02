@@ -24,7 +24,7 @@ def decrypt_message(shift, message):
     return message
 
 
-if __name__ == "__main__":
+def main():
     git_encrypted_message = 'Gpa aopz, npa aoha, qbza npa pa vcly dpao wslhzl!'
 
     """
@@ -45,7 +45,10 @@ if __name__ == "__main__":
     print(f"Nice try {name}, this is your decrypted message:")
     print(decrypted_message)
 
-    print('hoi')
+
+if __name__ == "__main__":
+    main()
+
 
 
 
